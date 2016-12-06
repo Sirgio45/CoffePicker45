@@ -19,9 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondScreen"
-            android:label="showAddress"
+            android:label="getName"
             android:theme="@style/AppTheme">
-            </activity>
+        </activity>
     </application>
 
 </manifest>
