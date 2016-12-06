@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ebookfrenzy.coffepicker45.MainActivity">
+
+   <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Answer a question?"
+        app:showAsAction="never" />
+
+       <item android:id="@+id/exit_the_app"
+           android:title="Exit"
+           app:showAsAction="ifRoom|withText"
+           android:orderInCategory="101"
+           />
+
+
+
+   </group>
+</menu>
